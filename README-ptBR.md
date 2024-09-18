@@ -8,11 +8,11 @@ Link para o *TRACTIAN* [Read-me](https://github.com/tractian/challenges/blob/mai
 -   [Descrição Geral](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#descri%C3%A7%C3%A3o-geral)
 -   [Apresentação do Protótipo](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#apresenta%C3%A7%C3%A3o-do-prot%C3%B3tipo)
 -   [Escopo](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#escopo)
--   [Requisitos]([link](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#requisitos))
--   [O que Poderia ser Melhor]([link](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#o-que-poderia-ser-melhor))
--   [Desafios Enfrentados]([link](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#desafios-enfrentados))
--   [Ferramentas Utilizadas no Projeto]([link](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#ferramentas-utilizadas-no-projeto))
--   [Versão em Inglês]([link](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#vers%C3%A3o-em-ingl%C3%AAs))
+-   [Requisitos](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#requisitos)
+-   [O que Poderia ser Melhor](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#o-que-poderia-ser-melhor)
+-   [Desafios Enfrentados](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#desafios-enfrentados)
+-   [Ferramentas Utilizadas no Projeto](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#ferramentas-utilizadas-no-projeto)
+-   [Versão em Inglês](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#vers%C3%A3o-em-ingl%C3%AAs)
 
 ## Descrição Geral
 
