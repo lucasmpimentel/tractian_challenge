@@ -78,12 +78,13 @@ class HomePageState extends State<HomePage> {
 
 Widget _buildLocationsList(List<ResultCompany> locations) {
   return ListView.builder(
+    padding: const EdgeInsets.only(top: 16.0),
     itemCount: locations.length,
     itemBuilder: (context, index) {
       return Padding(
         padding: const EdgeInsets.only(top: 16.0, left: 21.0, right: 21.0),
         child: FilledButton.icon(
-          icon: const Icon(Icons.location_on),
+          icon: Image.asset('assets/icons/iconcompany_icon.png', width: 24, height: 24),
           iconAlignment: IconAlignment.start,
           style: ButtonStyle(
             backgroundColor: WidgetStateProperty.all(

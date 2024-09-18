@@ -19,4 +19,20 @@ class AssetsViewCubit extends Cubit<AssetsViewStates> {
       emit(AssetsViewErrorState('Erro ao buscar os ativos'));
     }
   }
+
+  Future<void> filterByEnergy(bool isActive) async {
+    try {
+      if (!isActive) {
+        emit(AssetsViewLoadingState());
+        _dto = await usecase.filterByEnergy();
+        emit(AssetsViewWithEnergyFilterState(dto));
+      } else {
+        emit(AssetsViewLoadingState());
+        _dto = await usecase.call(_dto.id);
+        emit(AssetsViewSuccessState(dto));
+      }
+    } catch (e) {
+      emit(AssetsViewErrorState('Erro ao filtrar os ativos'));
+    }
+  }
 }

@@ -48,11 +48,14 @@ class _AssetsViewPageState extends State<AssetsViewPage> {
           bloc: widget._assetsViewCubit,
           builder: (context, state) {
             if (state is AssetsViewLoadingState) {
-              widget._assetsViewCubit.getAssets(widget.id);
               return const Center(
                 child: CircularProgressIndicator(),
               );
             } else if (state is AssetsViewSuccessState) {
+              return TreeMenu(
+                root: state.data,
+              );
+            } else if (state is AssetsViewWithEnergyFilterState) {
               return TreeMenu(
                 root: state.data,
               );

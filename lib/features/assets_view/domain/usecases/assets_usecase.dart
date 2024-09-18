@@ -4,6 +4,7 @@ import 'package:tractian_challenge/features/assets_view/domain/repositories/asse
 
 abstract class AssetsUsecase {
   Future<TreeNode> call(String id);
+  Future<TreeNode> filterByEnergy();
 }
 
 class TreeNode {
@@ -115,5 +116,13 @@ class GetAssetsImpl implements AssetsUsecase {
       }
     }
     return TreeNode(id: '', name: '', type: '');
+  }
+
+
+  @override
+  Future<TreeNode> filterByEnergy() async {
+    final result = assetsResults.where((element) => element.sensorType == 'energy');
+    TreeNode tree = await buildTree(locationsResults, result.toList());
+    return tree;
   }
 }

@@ -15,3 +15,9 @@ class AssetsViewErrorState extends AssetsViewStates {
 
   AssetsViewErrorState(this.message);
 }
+
+class AssetsViewWithEnergyFilterState extends AssetsViewStates {
+  final TreeNode data;
+
+  AssetsViewWithEnergyFilterState(this.data);
+}
