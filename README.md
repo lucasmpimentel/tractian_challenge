@@ -4,15 +4,15 @@ Link para o *TRACTIAN* [Read-me](https://github.com/tractian/challenges/blob/mai
 
 ## Sumary
 
--   [Sumary](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#%C3%ADndice)
--   [General Description](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#descri%C3%A7%C3%A3o-geral)
--   [Prototype Presentation](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#apresenta%C3%A7%C3%A3o-do-prot%C3%B3tipo)
--   [Scope](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#escopo)
--   [Requirements](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#requisitos)
--   [What Could Be Better](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#o-que-poderia-ser-melhor)
--   [Challenges Faced](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#desafios-enfrentados)
--   [Tools Used in the Projec](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#ferramentas-utilizadas-no-projeto)
--   [Portuguese Version](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#vers%C3%A3o-em-ingl%C3%AAs)
+-   [Sumary](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#sumary)
+-   [General Description](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#general-description)
+-   [Prototype Presentation](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#prototype-presentation)
+-   [Scope](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#scope)
+-   [Requirements](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#requirements)
+-   [What Could Be Better](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#what-could-be-better)
+-   [Challenges Faced](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#challenges-faced)
+-   [Tools Used in the Projec](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#tools-used-in-the-project)
+-   [Portuguese Version](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#english-version)
 
 ## General Description
 
