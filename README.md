@@ -1,85 +1,86 @@
 # Welcome to my TRACTIAN - Mobile Challenge!
 
-Link para o *TRACTIAN* [Read-me](link) aqui.
+Link para o *TRACTIAN* [Read-me](https://github.com/tractian/challenges/blob/main/mobile/README.md) aqui.
 
-## Índice
+## Sumary
 
--   [General Description](link)
--   [Apresentação do Protótipo](link)
--   [Escopo](link)
--   [Requisitos](link)
--   [O que Poderia ser Melhor](link)
--   [Desafios Enfrentados](link)
--   [Ferramentas Utilizadas no Projeto](link)
--   [Versão em Inglês](link)
+-   [Sumary](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#sumary)
+-   [General Description](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#general-description)
+-   [Prototype Presentation](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#prototype-presentation)
+-   [Scope](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#scope)
+-   [Requirements](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#requirements)
+-   [What Could Be Better](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#what-could-be-better)
+-   [Challenges Faced](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#challenges-faced)
+-   [Tools Used in the Projec](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#tools-used-in-the-project)
+-   [Portuguese Version](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md#english-version)
 
-## Descrição Geral
+## General Description
 
-Este documento contém as especificações para a criação de um aplicativo mobile que consome dados da API da *Tractian* e os exiba em uma estrutura de árvore. Temos a presença dos filtros de nome, nível de criticidade, e tipo de sensor. Há também uma barra de pesquisa.
-O objetivo desta aplicação é fornecer uma forma de gerenciamento e manutenção adequada para garantir o funcionamento eficiente de ativos essenciais à operação de indústrias.
+This document contains the specifications for creating a mobile application that consumes data from **TRACTIAN** API and displays it in a tree structure. We have the presence of filters for name, criticality level, and sensor type. There is also a search bar.
 
-## Apresentação do Protótipo
+The goal of this application is to provide a proper management and maintenance method to ensure the efficient operation of assets essentials to the operation of industries.
 
-(vídeo aqui)
+## Prototype Presentation
 
-## Escopo
+(video here)
 
-Desenvolvido um aplicativo mobile capaz de atender aos Sistemas Operacionais *iOS* e *Android* utilizando o framework multiplataforma *Flutter* onde é aplicada a linguagem *Dart*. 
- 
- 
-## Requisitos
+## Scope
 
-*1. Página inicial*
+Developed a mobile application capable of serving the **iOS** and **Android** Operating Systems using the **Flutter** multiplatform framework where the **Dart** language is applied.
 
-É o menu para os usuários navegarem entre diferentes empresas e acessarem seus ativos.
+## Requirements
 
-*2. Página de ativos*
+**1. Home Page**
 
--   A Árvore de Ativos é o recurso principal, oferecendo uma representação visual em árvore da hierarquia de ativos da empresa.
--   *Sub-recursos:*
-    
-    1.  *Visualização*
-        
-        -   Apresente uma estrutura de árvore dinâmica exibindo componentes, ativos e locais.
-    2.  *Filtros*
-        
-        *Pesquisa de texto*
-        
-        -   Os usuários podem pesquisar componentes/ativos/locais específicos dentro da hierarquia de ativos.
-        
-        *Sensores de energia*
-        
-        -   Implemente um filtro para isolar sensores de energia dentro da árvore.
-        
-        *Status crítico do sensor*
-        
-        -   Integre um filtro para identificar ativos com status de sensor crítico.
-    
-    -   Quando os filtros são aplicados, os pais do ativo *não podem* ser ocultados. O usuário deve conhecer todo o caminho do ativo. Os itens que não estão relacionados ao caminho do ativo devem ser ocultados.
+This is the menu for users to navigate between different companies and access their assets.
 
-## O que poderia ser melhor
+**2. Assets Page**
 
- - Refinar a listagem;
- - Finalizar a feature que aplica o cache e adicionar o banco de dados offline (como o SQLite por exemplo);
- - Explorar melhor o uso de isolates;
- - Construir testes mais refinados e com cobertura mais abrangente por consequência;
- - Adiconar ao projeto uma tela de detalhes contendo informações a respeito dos componentes baseadas na API.
+- The Asset Tree is the main resource, offering a visual tree representation of the company's asset hierarchy.
+- **Sub-resources:**
 
+1. **Visualization**
 
-## Desafios Enfrentados
+- Present a dynamic tree structure displaying components, assets and locations.
 
- - Lidar com a API propositadamente desorganizada;
- - Montar a estrutura primária do projeto;
- - Utilizar a recursividade do Flutter com maior eficiência.
+2. **Filters**
 
-## Ferramentas Utilizadas no Projeto
+**Text Search**
 
- - *Clean Arch*: separar as responsabilidades do código para que haja independência e maior foco nas regras de negócio estabelecidas;
- - *Dio*: realização das requests de forma simplificada;
- - *Cubit*: gerenciamento de estado simplificado;
- - *GetIt*: injeção de dependências;
- - *Mocktail*: facilitar os testes criando mocks sem necessitar gerar código extra.
+- Users can search for specific components/assets/locations within the asset hierarchy.
 
-## Versão em Inglês
+**Energy Sensors**
 
-Read-me em inglês [aqui]().
+- Implement a filter to isolate energy sensors within the tree.
+
+**Critical sensor status**
+
+- Integrate a filter to identify assets with critical sensor status.
+
+- When filters are applied, the asset's parents **cannot** be hidden. The user must know the entire path of the asset. Items that are not related to the asset's path should be hidden.
+
+## What could be better
+
+- Refine the listing;
+- Finalize the feature that applies the cache and add the offline database (SQLite for example);
+- Better explore the use of isolates;
+- Build more refined tests with broader coverage as a result;
+- Add a details screen to the project containing information about the components based on the API.
+
+## Challenges Faced
+
+- Dealing with the purposefully disorganized API;
+- Setting up the primary structure of the project;
+- Use Flutter's recursion more efficiently.
+
+## Tools Used in the Project
+
+- **Clean Arch**: separate code responsibilities so that there is independence and greater focus on established business rules;
+- **Dio**: simplified execution of requests;
+- **Cubit**: simplified state management;
+- **GetIt**: dependency injection;
+- **Mocktail**: facilitate testing by creating mocks without the need to generate extra code.
+
+## English version
+
+Read-me in Portuguese [here](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#vers%C3%A3o-em-ingl%C3%AAs).
