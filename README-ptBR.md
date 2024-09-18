@@ -1,17 +1,18 @@
 # Welcome to my TRACTIAN - Mobile Challenge!
 
-Link para o *TRACTIAN* [Read-me](link) aqui.
+Link para o *TRACTIAN* [Read-me](https://github.com/tractian/challenges/blob/main/mobile/README.md) aqui.
 
 ## Índice
 
--   [Descrição Geral](link)
--   [Apresentação do Protótipo](link)
--   [Escopo](link)
--   [Requisitos](link)
--   [O que Poderia ser Melhor](link)
--   [Desafios Enfrentados](link)
--   [Ferramentas Utilizadas no Projeto](link)
--   [Versão em Inglês](link)
+-   [Índice](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#%C3%ADndice)
+-   [Descrição Geral](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#descri%C3%A7%C3%A3o-geral)
+-   [Apresentação do Protótipo](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#apresenta%C3%A7%C3%A3o-do-prot%C3%B3tipo)
+-   [Escopo](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#escopo)
+-   [Requisitos](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#requisitos)
+-   [O que Poderia ser Melhor](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#o-que-poderia-ser-melhor)
+-   [Desafios Enfrentados](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#desafios-enfrentados)
+-   [Ferramentas Utilizadas no Projeto](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#ferramentas-utilizadas-no-projeto)
+-   [Versão em Inglês](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#vers%C3%A3o-em-ingl%C3%AAs)
 
 ## Descrição Geral
 
@@ -82,4 +83,4 @@ Desenvolvido um aplicativo mobile capaz de atender aos Sistemas Operacionais *iO
 
 ## Versão em Inglês
 
-Read-me em inglês [aqui]().
+Read-me em inglês [aqui](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README.md).
