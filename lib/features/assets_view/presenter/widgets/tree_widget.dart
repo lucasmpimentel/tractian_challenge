@@ -1,11 +1,15 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
+
 import 'package:tractian_challenge/features/assets_view/domain/usecases/assets_usecase.dart';
 import 'package:tractian_challenge/features/assets_view/presenter/widgets/filter_widget.dart';
 
 class TreeMenu extends StatelessWidget {
   final TreeNode root;
-
-  const TreeMenu({super.key, required this.root});
+  const TreeMenu({
+    super.key,
+    required this.root,
+  });
 
   @override
   Widget build(BuildContext context) {

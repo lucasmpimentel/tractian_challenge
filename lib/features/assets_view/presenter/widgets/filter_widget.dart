@@ -1,25 +1,23 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart'; // Add this import
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:tractian_challenge/features/assets_view/presenter/cubit/assets_view_cubit.dart';
 
 class FilterWidget extends StatefulWidget {
   final TextEditingController controller = TextEditingController();
-  bool isEnergyFilterActive = false;
-  FilterWidget({
-    super.key,
-    this.isEnergyFilterActive = false,
-  });
+
+  FilterWidget({super.key});
 
   @override
   State<FilterWidget> createState() => _FilterWidgetState();
 }
 
 class _FilterWidgetState extends State<FilterWidget> {
+  bool isEnergyFilterActive = false;
   _activateEnergyFilter() {
-    widget.isEnergyFilterActive = !widget.isEnergyFilterActive;
-    context.read<AssetsViewCubit>().filterByEnergy(widget.isEnergyFilterActive);
+    isEnergyFilterActive = !isEnergyFilterActive;
+    context.read<AssetsViewCubit>().filterByEnergy(isEnergyFilterActive);
   }
 
   @override
@@ -42,7 +40,7 @@ class _FilterWidgetState extends State<FilterWidget> {
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              widget.isEnergyFilterActive
+              isEnergyFilterActive
                   ? FilledButton.icon(
                       label: const Text(
                         'Energia',
