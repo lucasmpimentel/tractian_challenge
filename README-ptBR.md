@@ -4,7 +4,7 @@ Link para o *TRACTIAN* [Read-me](link) aqui.
 
 ## Índice
 
--   [General Description](link)
+-   [Descrição Geral](link)
 -   [Apresentação do Protótipo](link)
 -   [Escopo](link)
 -   [Requisitos](link)
