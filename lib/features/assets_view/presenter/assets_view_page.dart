@@ -48,6 +48,7 @@ class _AssetsViewPageState extends State<AssetsViewPage> {
           bloc: widget._assetsViewCubit,
           builder: (context, state) {
             if (state is AssetsViewLoadingState) {
+              widget._assetsViewCubit.getAssets(widget.id);
               return const Center(
                 child: CircularProgressIndicator(),
               );

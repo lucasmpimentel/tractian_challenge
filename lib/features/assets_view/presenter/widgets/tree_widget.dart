@@ -10,15 +10,18 @@ class TreeMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       body: Column(
         children: [
           FilterWidget(),
-          Container(
-            padding: const EdgeInsets.only(top: 64, left: 16, right: 16),
-            alignment: Alignment.bottomCenter,
-            height: MediaQuery.of(context).size.height * 0.8,
-            child: ListView(
-              children: _buildTree(root),
+          Expanded(
+            flex: 3,
+            child: Container(
+              padding: const EdgeInsets.only(top: 16, left: 16, right: 16),
+              height: MediaQuery.of(context).size.height - kToolbarHeight,
+              child: ListView(
+                children: _buildTree(root),
+              ),
             ),
           ),
         ],
