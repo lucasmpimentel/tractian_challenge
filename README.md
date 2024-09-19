@@ -16,23 +16,23 @@ Link para o *TRACTIAN* [Read-me](https://github.com/tractian/challenges/blob/mai
 
 ## General Description
 
-This document contains the specifications for creating a mobile application that consumes data from **TRACTIAN** API and displays it in a tree structure. We have the presence of filters for name, criticality level, and sensor type. There is also a search bar.
+This document contains the specifications for creating a mobile application that consumes data from the **TRACTIAN** API and displays it in a tree structure. We have filters for name, criticality level, and sensor type. There is also a search bar.
 
-The goal of this application is to provide a proper management and maintenance method to ensure the efficient operation of assets essentials to the operation of industries.
+The goal is to provide a proper management and maintenance method to ensure the efficient and predictable operation of assets essential to the industries.
 
 ## Prototype Presentation
 
-(video here)
+[untitled.webm](https://github.com/user-attachments/assets/6b89649d-5f54-42fe-916b-2f71065c4c4d)
 
 ## Scope
 
-Developed a mobile application capable of serving the **iOS** and **Android** Operating Systems using the **Flutter** multiplatform framework where the **Dart** language is applied.
+Develop a mobile application capable of serving the **iOS** and **Android** Operating Systems using the **Flutter** multiplatform framework where the **Dart** language is applied.
 
 ## Requirements
 
 **1. Home Page**
 
-This is the menu for users to navigate between different companies and access their assets.
+This is the menu for users to navigate between different companies of the same client and access their assets.
 
 **2. Assets Page**
 
@@ -61,25 +61,28 @@ This is the menu for users to navigate between different companies and access th
 
 ## What could be better
 
-- Refine the listing;
+- Refine the listing to a better visualization;
+- Finalize the search bar and filters 
 - Finalize the feature that applies the cache and add the offline database (SQLite for example);
-- Better explore the use of isolates;
-- Build more refined tests with broader coverage as a result;
+- Find a way to the use of the flutter isolates;
+- Build more refined unit tests with broader coverage as a result;
 - Add a details screen to the project containing information about the components based on the API.
 
 ## Challenges Faced
 
 - Dealing with the purposefully disorganized API;
+- Dealing with the cache of the API
 - Setting up the primary structure of the project;
-- Use Flutter's recursion more efficiently.
+- Use Flutter's recursivity more efficiently.
 
 ## Tools Used in the Project
 
-- **Clean Arch**: separate code responsibilities so that there is independence and greater focus on established business rules;
+
+- **Clean Arch**: separating code responsibilities so that there is independence to better reuse of the code and more clarity on the business rules applied;
 - **Dio**: simplified execution of requests;
-- **Cubit**: simplified state management;
-- **GetIt**: dependency injection;
-- **Mocktail**: facilitate testing by creating mocks without the need to generate extra code.
+- **Cubit**: simplified state management based on events;
+- **GetIt**: dependency injection to improve the code decoupling;
+- **Mocktail and Mokito**: To facilitate the unit testing by creating mocks without extra code.
 
 ## English version
 
