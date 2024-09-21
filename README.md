@@ -84,6 +84,6 @@ This is the menu for users to navigate between different companies of the same c
 - **GetIt**: dependency injection to improve the code decoupling;
 - **Mocktail and Mokito**: To facilitate the unit testing by creating mocks without extra code.
 
-## English version
+## Portuguese version
 
 Read-me in Portuguese [here](https://github.com/lucasmpimentel/tractian_challenge/blob/main/README-ptBR.md#vers%C3%A3o-em-ingl%C3%AAs).
